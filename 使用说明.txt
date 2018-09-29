@@ -1,0 +1,4 @@
+首先需要编译: javac TiffToJPEGByImageIO.java -encoding utf8
+  将jai-imageio-core-1.3.0.1.jar放到java查找的jar包位置，并增加环境变量CLASSPATH
+  将TiffToJPEGByImageIO.class 放到java执行的class目录，保证java执行的时候找到该class
+  执行 java TiffToJPEGByImageIO tiff绝对路径  执行结果要放到的路径
